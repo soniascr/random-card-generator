@@ -1,0 +1,34 @@
+body {
+    background: green
+}
+
+.card {
+    height: 450px;
+    width: 300px;
+    background: white;
+    margin: auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cardType {
+    font-size: 100px;
+    align-self: flex-start;
+    margin-left: 15px;
+
+}
+
+.num {
+    font-size: 185px;
+    align-self: center;
+    
+}
+
+#rotate {
+    transform: rotate(180deg);
+    align-self: flex-end;
+    margin-right: 15px;  
+
+}
