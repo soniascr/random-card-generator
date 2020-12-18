@@ -9,7 +9,8 @@ window.onload = function () {
     palo.forEach(function (element) {
     element.innerHTML = randomPalo;
     if (randomPalo == "&hearts;" || randomPalo === "&diams;") {
-        element.style.color = "red";
+        element.style.color = "red"; 
+        
     }
     
     });
