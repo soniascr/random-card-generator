@@ -1,6 +1,8 @@
 window.onload = function () {
     var num = document.querySelector(".num");
-    num.innerHTML = (Math.floor(Math.random()+1 * 13));
+    var values = ['A', 2, 3, 4, 5, 6, 7, 8, 9 , 10, 'J', 'Q', 'K']
+    var position = (Math.floor(Math.random() * values.length));
+    num.innerHTML = values[position]
 
     var palo = document.querySelectorAll(".cardType")
     var randomPalo = cardType();
